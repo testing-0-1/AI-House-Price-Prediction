@@ -181,9 +181,9 @@ AI HOOUSE PREDICTION/
 ├── notebooks/
 │   └── 01_exploration.ipynb
 │
-├── .venv/
-│
+├── .gitignore
 ├── README.md
+├── requirements.txt
 └── test.py
 ```
 
@@ -206,7 +206,7 @@ AI HOOUSE PREDICTION/
 
 ```bash
 git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd AI-HOUSE-PREDICTION
+cd AI-House-Price-Prediction
 ```
 
 ### 2. Create and activate the virtual environment
@@ -237,7 +237,7 @@ The application will open in your browser.
 
 ## ⚠️ Limitations
 
-This project uses the California Housing dataset.
+This project currently uses the California Housing dataset.
 
 Therefore:
 
@@ -245,7 +245,20 @@ Therefore:
 * The target represents the median value of a housing area, not the exact selling price of an individual house.
 * The model should therefore be considered an educational Machine Learning project rather than a professional real-estate valuation system.
 
-A future version could use a larger real-estate dataset containing individual properties, cities, surface area, number of bedrooms, bathrooms and other property-level information.
+### Future Improvements
+
+A future version could use a larger real-estate dataset covering **multiple cities and countries**.
+
+The model could then be adapted to use property-level features such as:
+
+* Country
+* City
+* Surface area
+* Number of bedrooms
+* Number of bathrooms
+* Property location
+* Year of construction
+* Other property characteristics
 
 ## 📚 What I Learned
 
@@ -260,4 +273,9 @@ Through this project, I practiced:
 * Hyperparameter tuning
 * Model evaluation
 * Model persistence with Joblib
-* Building a Machine Learni
+* Building a Machine Learning application with Streamlit
+* Using Git and GitHub for project version control
+
+## 👤 Author
+
+Student project — Machine Learning / Data Science portfolio.
