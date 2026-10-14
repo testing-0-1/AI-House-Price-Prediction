@@ -18,7 +18,7 @@ st.set_page_config(
 # ==========================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-model_path = BASE_DIR / "models" / "house_price_model.pkl"
+model_path = BASE_DIR / "models" / "house_price_model_deploy.pkl"
 
 model = joblib.load(model_path)
 
